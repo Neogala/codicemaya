@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(233, 223, 212);
+}
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(54, 52, 50);
+}
+
+.white {
+  background-color: rgb(233, 223, 212) !important;
+}
+
+.material-icons{
+  color: aliceblue;
+}
+
+.teal-text.text-lighten-2 {
+  color: #d1c2b3 !important;
+  font-family: 'Fraunces', serif;
+}
+
+h5 {
+  font-family: 'Fraunces', serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+p {
+  line-height: 2rem;
+  
+}
+
+.light {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.sidenav-trigger {
+  color: #282929;
+}
+
+.parallax-container {
+  min-height: 800px;
+  line-height: 0;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .teal-text {
+    padding-top: 200px;
+
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.teal {
+  margin: 0;
+  background-color: #d1c2b3;
+}
+
+.large material-icons {
+  align-items: center;
+}
+
+.card{
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgb(243, 239, 235);
+
+}
+
+.valign-wrapper{
+  min-height: 400px;
+}
+
+.brand-logo{
+  font-family: 'Fraunces', serif;
+  font-size: 10px;
+}
